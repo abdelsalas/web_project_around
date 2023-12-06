@@ -9,21 +9,21 @@ const inputName = popupProfile.querySelector('.form__input[name="name"]');
 const inputJob = popupProfile.querySelector('.form__input[name="job"]');
 
 function togglePopup(popup){
-    popupProfile.classList.toggle('popup_show')
+popupProfile.classList.toggle('popup_show')
 }
 
 buttonEdit.addEventListener('click', function(){
-    togglePopup(popupProfile);
+togglePopup(popupProfile);
 });
 
 closeButton.addEventListener('click', function(){
-    togglePopup(popupProfile);
+togglePopup(popupProfile);
 });
 
 formProfile.addEventListener('submit', function(event){
-    event.preventDefault();
-    profileName.textContent = inputName.value;
-    profileJob.textContent = inputJob.value;
-    formProfile.reset();
-    togglePopup(popupProfile);
+event.preventDefault();
+profileName.textContent = inputName.value;
+profileJob.textContent = inputJob.value;
+formProfile.reset();
+togglePopup(popupProfile);
 })
