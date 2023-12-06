@@ -1,0 +1,16 @@
+.line{
+    width: 358px;
+    height: 1px;
+    opacity: 0.2;
+    background: #000;
+    margin-left: 36px;
+    margin-bottom: 26px;
+}
+
+@media screen and (max-width:767px){
+    .line{
+        width: 238px;
+        margin-bottom: 20px;
+        margin-left: 22px;
+    }
+}

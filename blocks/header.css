@@ -1,0 +1,43 @@
+.header{
+    width: 880px;
+    height: auto;
+    margin: auto;
+}
+
+@media screen and (max-width:767px){
+    .header{
+        width: 320px;
+    }
+
+}
+
+.header__title{
+    width: 173px;
+    height: 33px;
+    fill: #FFF;
+    margin-top: 41px;
+}
+
+@media screen and (max-width:767px){
+   .header__title{
+     width: 126px;
+     height: 24px;
+     padding-left: 27px;
+     margin-top: 28px;
+    }
+}
+
+.header__line{
+    width: 880px;
+    height: 1px;
+    opacity: 0.7;
+    background: #545454;
+    margin-top: 42px;
+}
+
+@media screen and (max-width:767px){
+    .header__line{
+        width: 320px;
+        margin-top: 32px;
+    }
+}

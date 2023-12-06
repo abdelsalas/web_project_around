@@ -1,0 +1,27 @@
+.save{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 358px;
+    height: 50.152px;
+    border-radius: 2px;
+    background: #000;
+    margin-left: 36px;
+}
+
+.save_type_traslate:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+
+@media screen and (max-width:767px){
+    .save{
+        width: 238px;
+        height: 46px;
+        margin-left: 22px;
+    }
+}

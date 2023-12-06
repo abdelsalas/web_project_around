@@ -1,0 +1,52 @@
+.edit__button{
+    border: none;
+    background: none;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.edit__button_typt_traslate:hover{
+    border: 1px solid #FFF;
+    opacity: .6;
+    cursor: pointer;
+}
+
+@media screen and (max-width:767px){
+    .edit__button{
+      margin-top: 0;
+     }
+ }
+
+ .button__add{
+    border: none;
+    background: none;
+    padding: 0;
+    margin-left: 165px;
+}
+
+.button__add_typt_traslate:hover{
+    opacity: .6;
+    cursor: pointer;
+}
+
+@media screen and (max-width:767px){
+    .button__add{
+        width: 282px;
+        height: 50px;
+        border-radius: 2px;
+        margin: 0;
+    }
+}
+
+.button__like{
+    border: none;
+    background: none;;
+}
+
+.button__like_typt_traslate:hover{
+    fill: #000;
+    opacity: 0.5;
+    cursor: pointer;
+}
