@@ -6,3 +6,5 @@ Este proyecto consiste en una página web simple llamada "Around The U.S." que m
 - **index.css**: Archivo de estilo que define la apariencia de la página.
 - **index.js**: Archivo JavaScript que puede contener lógica adicional para la interactividad de la página.
 - **images/**: Carpeta que contiene las imágenes utilizadas en la página.
+
+https://github.com/abdelsalas/web_project_around.git

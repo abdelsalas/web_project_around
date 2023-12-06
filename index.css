@@ -1,17 +1,19 @@
-@import url(../vendor/normalize.css);
-@import url(../blocks/page.css);
-@import url(../blocks/header.css);
-@import url(../blocks/profile.css);
-@import url(../blocks/elements.css);
-@import url(../blocks/footer.css);
-@import url(../blocks/button.css);
-@import url(../blocks/popup.css);
-@import url(../blocks/form.css);
-@import url(../blocks/line.css);
-@import url(../blocks/save.css);
+@import url(/vendor/normalize.css);
+@import url(/blocks/page.css);
+@import url(/blocks/header.css);
+@import url(/blocks/profile.css);
+@import url(/blocks/elements.css);
+@import url(/blocks/footer.css);
+@import url(/blocks/button.css);
+@import url(/blocks/popup.css);
+@import url(/blocks/form.css);
+@import url(/blocks/line.css);
+@import url(/blocks/save.css);
+@import url(/vendor/fonts/InterVariable-Italic.woff2);
+
 
 @font-face {
     font-family: "Inter";
-    src:  url(./vendor/InterVariable-Italic.woff2) format("woff2"),
-    url(./vendor/InterVariable.woff2) format("woff2");
+    src:  url(./vendor/fonts/InterVariable-Italic.woff2) format("woff2"),
+    url(./vendor/fonts/InterVariable.woff2) format("woff2");
 }

@@ -10,15 +10,6 @@
     row-gap: 20px;
 }
 
-@media screen and (max-width:767px){
-    .elements{
-        width: 282px;
-        height: auto;
-        row-gap: 20px;
-    }
-
-}
-
 .element{
     display: flex;
     width: 282px;
@@ -46,4 +37,13 @@
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+}
+
+@media screen and (max-width:767px){
+    .elements{
+        width: 282px;
+        height: auto;
+        row-gap: 20px;
+    }
+
 }

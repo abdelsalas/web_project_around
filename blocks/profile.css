@@ -6,15 +6,6 @@
     margin: auto;
 }
 
-@media screen and (max-width:767px){
-    .profile{
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        
-    }
-}
 
 .profile__image{
     width: 120px;
@@ -23,12 +14,6 @@
     border-radius: 50%;
 }
 
-@media screen and (max-width:767px){
-    .profile__image{
-     width: 130px;
-     height: 130px;
-  }
-}
 
 .profile__info{
     width: 415px;
@@ -38,16 +23,9 @@
     flex-wrap: wrap;
     padding-left: 27px;
     padding-top: 22px;
+    overflow: visible;
 }
 
-@media screen and (max-width:767px){
-    .profile__info{
-         align-items: center;
-         width: 240px;
-         height: 50px;
-         padding-bottom: 36px;
-    }
-}
 
 .profile__name{
     width: 373px;
@@ -61,8 +39,40 @@
     margin: 0;
     display: flex;
     justify-content: space-between;
+    
 }
 
+
+
+.profile__job{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding-top: 16px;
+    overflow: hidden;
+}
+
+@media screen and (max-width:767px){
+    .profile__job{
+        height: 14px;
+        padding-top: 14px;
+        text-align: center;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:767px){
+    .profile{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+}
 @media screen and (max-width:767px){
     .profile__name{
         width: 196px;
@@ -74,23 +84,17 @@
         justify-content: center;
     }
 }
-
-.profile__job{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0;
-    padding-top: 16px;
-}
-
 @media screen and (max-width:767px){
-    .profile__job{
-        height: 14px;
-        padding-top: 14px;
-        text-align: center;
-        font-size: 14px;
+    .profile__info{
+         align-items: center;
+         width: 240px;
+         height: 50px;
+         padding-bottom: 36px;
     }
+}
+@media screen and (max-width:767px){
+    .profile__image{
+     width: 130px;
+     height: 130px;
+  }
 }
