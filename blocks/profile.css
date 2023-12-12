@@ -27,7 +27,7 @@
 }
 
 
-.profile__name{
+.profile__name {
     width: 373px;
     height: 39px;
     color: #FFF;
@@ -39,12 +39,10 @@
     margin: 0;
     display: flex;
     justify-content: space-between;
-    
+    overflow: hidden; /* Agregado para evitar desbordamiento */
 }
 
-
-
-.profile__job{
+.profile__job {
     color: #FFF;
     font-family: Inter;
     font-size: 18px;
@@ -53,8 +51,9 @@
     line-height: normal;
     margin: 0;
     padding-top: 16px;
-    overflow: hidden;
+    overflow: hidden; /* Mantenido para evitar desbordamiento */
 }
+
 
 @media screen and (max-width:767px){
     .profile__job{
