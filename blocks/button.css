@@ -1,52 +1,73 @@
-.edit__button{
-    border: none;
-    background: none;
+.button_edit {
+    background: url(/images/edit_button.svg) no-repeat center;
     width: 24px;
     height: 24px;
-    padding: 0;
-    margin-top: 15px;
-}
-
-.edit__button_typt_traslate:hover{
-    border: 1px solid #FFF;
-    opacity: .6;
-    cursor: pointer;
-}
-
-@media screen and (max-width:767px){
-    .edit__button{
-      margin-top: 0;
-     }
- }
-
- .button__add{
+    border: 1px solid #fff;
+  }
+  
+  .button_add {
+    background: url(/images/add_button.svg) no-repeat center;
+    width: 288px;
+    height: 50px;
+    border-radius: 2px;
+    border: 1px solid #fff;
+  }
+  
+  .button_like {
+    background: url(/images/heart__button.svg) no-repeat center;
+    width: 21px;
+    height: 19px;
+    display: flex;
+    align-items: center;
     border: none;
-    background: none;
-    padding: 0;
-    margin-left: 165px;
-}
-
-.button__add_typt_traslate:hover{
-    opacity: .6;
-    cursor: pointer;
-}
-
-@media screen and (max-width:767px){
-    .button__add{
-        width: 282px;
-        height: 50px;
-        border-radius: 2px;
-        margin: 0;
+  }
+  
+  .button_like.liked {
+    background: url(/images/like-black.svg);
+    opacity: 1;
+  }
+  
+  .button_close {
+    background: url(/images/close_button.svg) no-repeat center;
+    width: 24px;
+    height: 24px;
+    border: none;
+    rotate: 90deg;
+    transform: rotate(90deg);
+    position: absolute;
+    top: -13%;
+    right: 0%;
+  }
+  
+  .button_submit {
+    background-color: #000;
+    color: #fff;
+    width: 238px;
+    height: 46px;
+    border-radius: 2px;
+  }
+  
+  .button_delete {
+    background: url(/images/trash_button.svg);
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    width: 19px;
+    height: 19px;
+    border: none;
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.5));
+    /* text-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+  }
+  
+  @media screen and (min-width: 600px) {
+    .button_add {
+      width: 150px;
+      height: 50px;
     }
-}
-
-.button__like{
-    border: none;
-    background: none;;
-}
-
-.button__like_typt_traslate:hover{
-    fill: #000;
-    opacity: 0.5;
-    cursor: pointer;
-}
+  
+    .button_close {
+      top: -10%;
+      right: -5%;
+    }
+  }
+  
