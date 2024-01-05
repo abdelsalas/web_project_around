@@ -48,3 +48,9 @@
   overflow: hidden;
   max-width: 100%;
 }
+
+.link {
+  text-decoration: none;
+  color: rgb(84, 84, 84);
+  cursor: pointer;
+}

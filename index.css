@@ -27,18 +27,12 @@
     align-content: center;
   }
   
-  .button {
-    cursor: pointer;
-    box-sizing: border-box;
-    
-  }
   
-  .button:hover {
-    opacity: 0.6;
-  }
+  
+  
   
   .link {
     text-decoration: none;
-    color: rgba(84, 84, 84, 1);
+    color: rgb(247, 0, 0);
     cursor: pointer;
   }
