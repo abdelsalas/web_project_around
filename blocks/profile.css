@@ -49,11 +49,6 @@
     font-size: 1em;
     overflow: hidden;
   }
-  .link {
-    text-decoration: none;
-    color: rgb(84, 84, 84);
-    cursor: pointer;
-  }
   
   @media screen and (min-width: 400px) {
     .profile__info {
