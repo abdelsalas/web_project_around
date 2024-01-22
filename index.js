@@ -73,16 +73,17 @@ function createCard(title, link) {
     const card = buttonDelete.closest(".card");
     card.remove();
   });
-
-  cardTitle.innerText = title;
+ 
+  cardTitle.textContent = title;
   cardImage.src = link;
-
-  container.prepend(card);
+  cardImage.alt = title;
+  container.prepend(card);                                                                    
 
   const buttonImage = card.querySelector(".card__image");
   buttonImage.addEventListener("click", function () {
     popupImageElement.src = cardImage.src;
     togglePopup(popupImage);
+    popupImageElement.alt = cardImage.alt;
     popupImageTitle.textContent = cardTitle.textContent;
   });
 }
